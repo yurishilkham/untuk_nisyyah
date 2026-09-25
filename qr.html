@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QR Code - Untuk Nisyyah Khoirotul Ilmiah 🦫</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&family=Baloo+2:wght@700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{cream:'#FFF8E7',capy:'#8B6A4A',peach:'#FFDAB9',terra:'#D9896A',milktea:'#F5E6CC'},fontFamily:{nunito:['Nunito','sans-serif'],baloo:['Baloo 2','cursive']}}}}
+</script>
+<style>
+@media print { .no-print{display:none} body{background:white} }
+</style>
+</head>
+<body class="bg-cream font-nunito text-capy min-h-screen flex flex-col items-center p-4 md:p-8">
+  <div class="max-w-md w-full">
+    <div class="text-center mb-6">
+      <div class="text-4xl">🦫💛</div>
+      <h1 class="font-baloo font-extrabold text-2xl mt-2 leading-tight">Scan untuk Buka<br><span class="text-terra">Website Kapibara Nisyyah</span></h1>
+      <p class="text-sm font-bold opacity-70 mt-1">Untuk Nisyyah Khoirotul Ilmiah — Dunia yang Nanti 🌍</p>
+    </div>
+
+    <div class="bg-white rounded-[2rem] p-6 md:p-8 shadow-xl border-4 border-milktea text-center">
+      <div class="bg-gradient-to-br from-peach to-milktea rounded-3xl p-4">
+        <img src="qr-nisyyah.png" alt="QR Code untuk Nisyyah" class="w-full max-w-[320px] mx-auto rounded-2xl bg-white p-3 shadow-inner">
+      </div>
+      <div class="mt-4 bg-cream rounded-2xl p-3 border-2 border-dashed border-milktea">
+        <p class="text-xs font-extrabold opacity-60">LINK WEBSITE</p>
+        <a href="https://yurishilkham.github.io/untuk_nisyyah/" class="font-bold text-sm break-all text-terra underline">https://yurishilkham.github.io/untuk_nisyyah/</a>
+        <p class="text-xs font-semibold mt-1 opacity-70">Tap / scan QR untuk langsung lihat surat cinta kapibara ✨</p>
+      </div>
+      <div class="grid grid-cols-3 gap-2 mt-5 no-print">
+        <a href="qr-nisyyah.png" download="QR-Nisyyah-Kapibara.png" class="bg-capy text-cream py-3 rounded-full font-extrabold text-sm hover:bg-terra transition">⬇️ Simpan</a>
+        <button onclick="window.print()" class="bg-white border-2 border-capy py-3 rounded-full font-extrabold text-sm hover:bg-peach transition">🖨️ Cetak</button>
+        <a href="https://wa.me/?text=Hai%20Nisyyah%20Khoirotul%20Ilmiah%20🦫💛%20Aku%20bikin%20website%20kapibara%20gemoy%20buat%20kamu%20di%20https%3A%2F%2Fyurishilkham.github.io%2Funtuk_nisyyah%2F%20—%20scan%20QR%20nya%20ya%20✨" target="_blank" class="bg-green-500 text-white py-3 rounded-full font-extrabold text-sm hover:bg-green-600 transition">💬 WA</a>
+      </div>
+      <div class="mt-4 flex justify-center gap-2 no-print">
+        <a href="./" class="text-xs font-bold bg-peach px-4 py-2 rounded-full">← Kembali ke Website</a>
+        <button onclick="navigator.clipboard.writeText('https://yurishilkham.github.io/untuk_nisyyah/'); alert('Link disalin! 💛')" class="text-xs font-bold bg-white border border-milktea px-4 py-2 rounded-full">📋 Salin Link</button>
+      </div>
+    </div>
+
+    <div class="mt-6 bg-white/70 rounded-2xl p-4 border-2 border-white text-center">
+      <p class="text-xs font-bold">🦫 Tips kasih ke pacar:</p>
+      <p class="text-xs leading-relaxed mt-1">Print QR ini ukuran kartu nama / stiker, tempel di hadiah, atau kirim gambar <b>qr-nisyyah.png</b> langsung via WA. Pas dia scan, langsung masuk ke website gemoy kamu + lagu Dunia yang Nanti auto-play 🎵</p>
+    </div>
+    <p class="text-center text-xs opacity-50 font-bold mt-4">kapibara.love • 2026 • Untuk Nisyyah</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿node_modules/
+gen-qr.js
+package.json
+package-lock.json
