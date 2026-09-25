@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Nisyyah Khoirotul Ilmiah 🦫💛</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;600;700&family=Great+Vibes&family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        cream: '#FFF8E7',
+        capy: '#8B6A4A',
+        sage: '#A8C4A0',
+        peach: '#FFDAB9',
+        terra: '#D9896A',
+        milktea: '#F5E6CC'
+      },
+      fontFamily: {
+        nunito: ['Nunito','sans-serif'],
+        poppins: ['Poppins','sans-serif'],
+        vibes: ['Great Vibes','cursive'],
+        baloo: ['Baloo 2','cursive']
+      }
+    }
+  }
+}
+</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-cream font-nunito text-capy overflow-x-hidden">
+<!-- Floating Hearts Container -->
+<div id="hearts-container" class="fixed inset-0 pointer-events-none z-50"></div>
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-40 bg-cream/80 backdrop-blur-md border-b border-milktea">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="flex items-center gap-2 font-baloo font-extrabold text-lg md:text-xl">
+      <span class="text-2xl animate-bounce-slow">🦫</span>
+      <span class="text-capy">kapibara<span class="text-terra">.love</span></span>
+      <span class="hidden md:inline text-xs bg-peach px-2 py-1 rounded-full ml-2">untuk Nisyyah</span>
+    </div>
+    <div class="hidden md:flex gap-6 text-sm font-bold">
+      <a href="#hero" class="hover:text-terra transition">Home</a>
+      <a href="#surat" class="hover:text-terra transition">Surat</a>
+      <a href="#galeri" class="hover:text-terra transition">Galeri</a>
+      <a href="#lagu" class="hover:text-terra transition">Lagu</a>
+    </div>
+    <button id="musicToggleNav" class="bg-terra text-white px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2 hover:scale-105 transition">
+      <span id="navMusicIcon">🎵</span> <span class="hidden sm:inline">Putar Lagu</span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="pt-28 pb-10 px-4 max-w-6xl mx-auto">
+  <div class="grid md:grid-cols-2 gap-8 items-center">
+    <div class="order-2 md:order-1">
+      <div class="inline-flex items-center gap-2 bg-white border-2 border-milktea px-4 py-2 rounded-full text-sm font-bold shadow-sm">
+        <span>🦫</span> Website Kapibara Paling Gemoy di Dunia
+        <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+      </div>
+      <h1 class="font-baloo font-extrabold text-4xl md:text-5xl lg:text-6xl leading-[1.05] mt-4">
+        Hai, <br>
+        <span class="text-terra relative">Nisyyah Khoirotul Ilmiah
+          <span class="absolute -bottom-2 left-0 w-full h-3 bg-peach/60 -z-10 rounded-full"></span>
+        </span>
+        <span class="text-3xl">🤎</span>
+      </h1>
+      <p id="typingText" class="mt-4 text-lg md:text-xl font-semibold min-h-[3rem] text-capy/80"></p>
+      <p class="mt-3 text-sm md:text-base leading-relaxed bg-white p-4 rounded-2xl border-2 border-dashed border-milktea">
+        Kamu itu kayak kapibara — <b>tenang, hangat, dan bikin semua orang betah di dekatmu.</b> Website ini aku bikin khusus buat kamu, biar setiap scroll kamu senyum-senyum sendiri kayak kapibara habis berendam 🛁✨
+      </p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#surat" class="bg-capy text-cream px-6 py-3 rounded-full font-extrabold hover:bg-terra transition flex items-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1">
+          Buka Surat Cinta 💌
+        </a>
+        <a href="#galeri" class="bg-white border-2 border-capy px-6 py-3 rounded-full font-extrabold hover:bg-peach transition flex items-center gap-2">
+          📸 Ganti Foto Kita
+        </a>
+      </div>
+      <div class="mt-6 flex items-center gap-3 text-xs font-bold">
+        <span class="bg-sage text-white px-3 py-1 rounded-full">✨ 100% Gemoy</span>
+        <span class="bg-peach px-3 py-1 rounded-full">🦫 Approved by Kapibara</span>
+        <span class="hidden sm:inline opacity-60">scroll buat kejutan ↓</span>
+      </div>
+    </div>
+    <div class="order-1 md:order-2 relative flex justify-center">
+      <!-- Kapibara Hero Card -->
+      <div class="relative bg-white rounded-[2.5rem] p-6 md:p-8 shadow-[0_20px_60px_rgba(139,106,74,0.2)] border-4 border-milktea w-[320px] md:w-[420px] capy-float">
+        <div class="absolute -top-4 -right-4 bg-terra text-white px-4 py-2 rounded-full font-extrabold rotate-3 shadow-md text-sm">
+          super gemoy! ✨
+        </div>
+        <div class="bg-gradient-to-br from-peach to-milktea rounded-[2rem] p-4 flex flex-col items-center">
+          <!-- CSS Kapibara Illustration -->
+          <div class="capy-illustration">
+            <div class="capy-body">
+              <div class="capy-ear left"></div>
+              <div class="capy-ear right"></div>
+              <div class="capy-face">
+                <div class="capy-eye left"><span></span></div>
+                <div class="capy-eye right"><span></span></div>
+                <div class="capy-nose">◠</div>
+                <div class="capy-mouth">ᴥ</div>
+                <div class="capy-blush left"></div>
+                <div class="capy-blush right"></div>
+              </div>
+              <div class="capy-water">💦</div>
+              <div class="capy-orange">🍊</div>
+            </div>
+          </div>
+          <div class="text-6xl -mt-2">🦫</div>
+          <p class="font-baloo font-bold text-xl mt-2">Kapibara Mode: Bahagia</p>
+          <p class="text-sm opacity-70 font-semibold">karena ada Nisyyah 💛</p>
+        </div>
+        <div class="mt-4 grid grid-cols-3 gap-2 text-center">
+          <div class="bg-cream rounded-2xl p-3">
+            <div class="text-xl">😌</div>
+            <div class="text-xs font-extrabold">Santai</div>
+          </div>
+          <div class="bg-sage/20 rounded-2xl p-3">
+            <div class="text-xl">🤎</div>
+            <div class="text-xs font-extrabold">Setia</div>
+          </div>
+          <div class="bg-peach rounded-2xl p-3">
+            <div class="text-xl">🫧</div>
+            <div class="text-xs font-extrabold">Gemoy</div>
+          </div>
+        </div>
+        <div class="absolute -bottom-3 -left-3 bg-white border-2 border-milktea px-3 py-2 rounded-2xl shadow-md rotate-[-2deg]">
+          <p class="text-xs font-bold">“hidup itu indah kalau</p>
+          <p class="text-xs font-bold">ada kamu, Nisyyah!”</p>
+          <p class="text-[10px] opacity-60">— Kapibara bijak</p>
+        </div>
+      </div>
+      <!-- Decor -->
+      <div class="absolute top-10 -left-2 text-2xl animate-float">🍃</div>
+      <div class="absolute bottom-10 -right-2 text-2xl animate-float-delay">✨</div>
+      <div class="absolute top-0 right-10 text-xl animate-bounce-slow">💛</div>
+    </div>
+  </div>
+</section>
+
+<!-- ALASAN CINTA -->
+<section class="px-4 max-w-6xl mx-auto mt-6">
+  <div class="text-center">
+    <p class="font-vibes text-3xl text-terra">kenapa kamu spesial</p>
+    <h2 class="font-baloo font-extrabold text-3xl md:text-4xl -mt-2">4 Alasan Kamu Kayak Kapibara</h2>
+    <p class="text-sm opacity-70 font-semibold mt-1">edisi bucin gemoy — khusus Nisyyah Khoirotul Ilmiah</p>
+  </div>
+  <div class="grid md:grid-cols-4 gap-4 mt-8">
+    <div class="bg-white rounded-3xl p-6 border-2 border-milktea hover:shadow-xl transition hover:-translate-y-1">
+      <div class="w-12 h-12 bg-peach rounded-2xl flex items-center justify-center text-2xl">😌</div>
+      <h3 class="font-extrabold mt-3">Setenang Kapibara Berendam</h3>
+      <p class="text-sm mt-2 leading-relaxed">Di dekat kamu, semua panik jadi hilang. Kamu bikin hati adem kayak kapibara yang lagi ngambang di air hangat.</p>
+    </div>
+    <div class="bg-white rounded-3xl p-6 border-2 border-milktea hover:shadow-xl transition hover:-translate-y-1">
+      <div class="w-12 h-12 bg-sage/30 rounded-2xl flex items-center justify-center text-2xl">🤗</div>
+      <h3 class="font-extrabold mt-3">Seramah Kapibara Sosial</h3>
+      <p class="text-sm mt-2 leading-relaxed">Kapibara itu temennya semua hewan, kamu juga! Semua orang sayang Nisyyah karena kamu tulus & hangat.</p>
+    </div>
+    <div class="bg-white rounded-3xl p-6 border-2 border-milktea hover:shadow-xl transition hover:-translate-y-1">
+      <div class="w-12 h-12 bg-cream border-2 border-milktea rounded-2xl flex items-center justify-center text-2xl">🥺</div>
+      <h3 class="font-extrabold mt-3">Segemoy Pipi Kapibara</h3>
+      <p class="text-sm mt-2 leading-relaxed">Gemoy-nya kamu tuh nggak ada obat. Liat kamu aja pengen cubit pipi terus bilang “gemes banget sih!”</p>
+    </div>
+    <div class="bg-white rounded-3xl p-6 border-2 border-milktea hover:shadow-xl transition hover:-translate-y-1">
+      <div class="w-12 h-12 bg-terra/20 rounded-2xl flex items-center justify-center text-2xl">💪</div>
+      <h3 class="font-extrabold mt-3">Sekuat Kapibara Chill</h3>
+      <p class="text-sm mt-2 leading-relaxed">Keliatan santai, tapi hatinya kuat banget. Kamu hebat, Nisyyah! Aku bangga sama kamu setiap hari.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SURAT CINTA -->
+<section id="surat" class="px-4 max-w-4xl mx-auto mt-16">
+  <div class="bg-white rounded-[2rem] border-4 border-milktea p-6 md:p-10 shadow-xl relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-32 h-32 bg-peach/30 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-40 h-40 bg-sage/20 rounded-full blur-3xl"></div>
+    <div class="text-center relative">
+      <div class="inline-block bg-cream border-2 border-milktea px-4 py-1 rounded-full text-xs font-extrabold">💌 SURAT RAHASIA — KHUSUS NISYYAH</div>
+      <h2 class="font-baloo font-extrabold text-3xl md:text-4xl mt-3">Surat Cinta Kapibara</h2>
+      <p class="text-sm opacity-70 font-semibold">klik amplop di bawah buat buka ya, Nisyyah! 👇</p>
+    </div>
+
+    <!-- Envelope -->
+    <div class="flex justify-center mt-8">
+      <div id="envelope" class="envelope cursor-pointer">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body">
+          <div class="text-6xl">🦫</div>
+          <p class="font-baloo font-bold text-capy">Untuk Nisyyah</p>
+          <p class="text-xs font-bold bg-terra text-white px-3 py-1 rounded-full mt-1">ketuk untuk buka ✨</p>
+        </div>
+        <div class="heart-seal">💛</div>
+      </div>
+    </div>
+
+    <!-- Letter Content -->
+    <div id="letterContent" class="hidden mt-8 relative">
+      <div class="bg-cream rounded-3xl p-6 md:p-8 border-2 border-dashed border-capy/20 leading-relaxed">
+        <p class="font-vibes text-3xl text-terra">Hai Nisyyah Khoirotul Ilmiah sayang...</p>
+        
+        <div class="space-y-4 text-[15px] font-semibold mt-4">
+          <p>Hai kapibara kecilku yang paling gemoy sedunia! 🦫💛</p>
+          <p>
+            Tau nggak? Sejak ada kamu, hariku jadi kayak kapibara habis berendam air hangat — <b>tenang, hangat, dan bahagia terus.</b> Kamu itu definisi <i>“pulang yang paling nyaman”</i>.
+          </p>
+          <p>
+            Aku suka cara kamu ketawa, cara kamu cerita dengan semangat, bahkan cara kamu ngambek yang gemesin itu. Semua tentang <b>Nisyyah</b> tuh bikin aku bersyukur tiap hari. Kamu nggak perlu jadi sempurna, kamu cukup jadi kamu — itu aja udah lebih dari cukup buat aku.
+          </p>
+          <p class="bg-white p-4 rounded-2xl border-2 border-peach">
+            Kalau kapibara punya motto <i>“keep calm and float on”</i>, motto aku adalah <i>“keep love and stay with Nisyyah”</i> 🤎<br>
+            <span class="text-sm opacity-70">— gemoy tapi serius lho ini!</span>
+          </p>
+          <p>
+            Terima kasih ya sudah jadi kamu yang apa adanya, yang kuat, yang lembut, yang selalu bikin aku pengen jadi versi terbaik diriku. Aku janji bakal terus jagain kamu kayak kapibara jagain temen-temennya berendam bareng — <b>setia, sabar, dan nggak pernah ninggalin.</b>
+          </p>
+          <p class="font-baloo text-lg text-terra">
+            I love you, Nisyyah Khoirotul Ilmiah. Hari ini, besok, dan di setiap dunia yang nanti. 🌍💛
+          </p>
+          <p class="text-right font-vibes text-2xl text-terra mt-6">— kapibara besar milikmu 🦫</p>
+        </div>
+
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="bg-white border border-milktea px-3 py-1 rounded-full text-xs font-bold">🌸 kamu berharga</span>
+          <span class="bg-white border border-milktea px-3 py-1 rounded-full text-xs font-bold">🌞 kamu dicintai</span>
+          <span class="bg-white border border-miltea px-3 py-1 rounded-full text-xs font-bold">🦫 kamu gemoy maksimal</span>
+        </div>
+      </div>
+      <button id="closeLetter" class="mx-auto mt-4 block bg-white border-2 border-capy px-6 py-2 rounded-full font-bold hover:bg-peach transition">Tutup lagi 🙈</button>
+    </div>
+  </div>
+</section>
+
+<!-- RANDOM KATA BUCIN -->
+<section class="px-4 max-w-4xl mx-auto mt-12">
+  <div class="bg-gradient-to-br from-capy to-terra rounded-[2rem] p-6 md:p-8 text-cream relative overflow-hidden">
+    <div class="absolute top-0 right-0 text-8xl opacity-10">🦫</div>
+    <div class="relative">
+      <h3 class="font-baloo font-extrabold text-2xl md:text-3xl flex items-center gap-2">🎰 Mesin Kata Bucin Kapibara <span class="bg-cream text-capy text-xs px-3 py-1 rounded-full">pencet terus!</span></h3>
+      <p class="text-sm opacity-80 font-semibold mt-1">Lagi kangen? Pencet tombolnya, biar kapibara yang gombalin Nisyyah 😆</p>
+      
+      <div id="bucinDisplay" class="bg-cream text-capy rounded-3xl p-6 mt-6 min-h-[110px] flex items-center justify-center text-center">
+        <p class="font-bold text-lg">“Nisyyah, kamu itu kayak sinar matahari buat kapibara yang lagi berendam — hangatnya pas, bikin betah seharian ☀️🦫”</p>
+      </div>
+
+      <button id="bucinBtn" class="w-full md:w-auto mt-4 bg-peach text-capy px-8 py-4 rounded-full font-extrabold text-lg hover:scale-105 transition shadow-lg flex items-center justify-center gap-2 mx-auto">
+        🎲 Gombalin Lagi Dong!
+      </button>
+      <p class="text-center text-xs opacity-70 mt-2 font-semibold">udah ada 20+ gombalan gemoy siap tayang</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALERI EDITABLE -->
+<section id="galeri" class="px-4 max-w-6xl mx-auto mt-16">
+  <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+    <div>
+      <p class="font-vibes text-3xl text-terra">galeri kita</p>
+      <h2 class="font-baloo font-extrabold text-3xl md:text-4xl -mt-2">Foto Kita & Si Kapibara 📸</h2>
+      <p class="text-sm font-semibold opacity-70 mt-1">Klik foto / kotak kosong untuk ganti foto langsung dari website. Foto kesimpan otomatis di HP/laptop kamu ✨</p>
+    </div>
+    <div class="flex gap-2">
+      <button id="resetGallery" class="bg-white border-2 border-capy px-4 py-2 rounded-full text-sm font-bold hover:bg-peach transition">🔄 Reset ke Kapibara</button>
+      <label class="bg-capy text-cream px-4 py-2 rounded-full text-sm font-bold cursor-pointer hover:bg-terra transition">
+        📥 Tambah Foto
+        <input id="bulkUpload" type="file" accept="image/*" multiple class="hidden">
+      </label>
+    </div>
+  </div>
+
+  <div class="bg-sage/10 border-2 border-dashed border-sage/30 rounded-2xl p-4 mt-4 flex gap-3 items-start">
+    <div class="text-2xl">💡</div>
+    <div class="text-sm leading-relaxed">
+      <b>Cara ganti foto:</b> Klik salah satu kotak foto di bawah → pilih foto dari galeri HP/laptop → foto langsung keganti & otomatis tersimpan. Kamu juga bisa klik caption di bawah foto untuk ganti tulisannya!
+      <br><span class="opacity-70">Foto disimpan di browser kamu (localStorage), jadi nggak hilang kalau refresh. Kalau mau share ke pacar, tinggal kirim file foto asli atau screenshot website-nya.</span>
+    </div>
+  </div>
+
+  <div id="galleryGrid" class="grid md:grid-cols-3 gap-5 mt-6">
+    <!-- 6 slots generated by JS, but we put HTML fallback -->
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="px-4 max-w-4xl mx-auto mt-16">
+  <div class="text-center">
+    <p class="font-vibes text-3xl text-terra">jejak cerita</p>
+    <h2 class="font-baloo font-extrabold text-3xl -mt-2">Timeline Kita 🗓️</h2>
+  </div>
+  <div class="mt-8 relative">
+    <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-1 bg-milktea rounded-full md:-translate-x-1/2"></div>
+    <div class="space-y-6">
+      <div class="relative flex md:justify-center">
+        <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-terra rounded-full border-4 border-cream -translate-x-1/2 mt-6"></div>
+        <div class="ml-10 md:ml-0 md:w-[45%] md:mr-auto bg-white rounded-3xl p-5 border-2 border-milktea">
+          <p class="text-xs font-extrabold bg-peach inline-block px-3 py-1 rounded-full">Hari Pertama Kenal ✨</p>
+          <h4 class="font-extrabold mt-2">Awalnya cuma “hai”</h4>
+          <p class="text-sm opacity-80 mt-1">Siapa sangka dari sapaan random itu, sekarang jadi orang paling aku sayang.</p>
+        </div>
+      </div>
+      <div class="relative flex md:justify-center">
+        <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-sage rounded-full border-4 border-cream -translate-x-1/2 mt-6"></div>
+        <div class="ml-10 md:ml-0 md:w-[45%] md:ml-auto bg-white rounded-3xl p-5 border-2 border-milktea">
+          <p class="text-xs font-extrabold bg-sage text-white inline-block px-3 py-1 rounded-full">Makin Dekat 🦫</p>
+          <h4 class="font-extrabold mt-2">Nyaman kayak kapibara berendam</h4>
+          <p class="text-sm opacity-80 mt-1">Ngobrol ngalir, ketawa bareng, curhat sampai lupa waktu. Nyaman itu kamu, Nisyyah.</p>
+        </div>
+      </div>
+      <div class="relative flex md:justify-center">
+        <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-capy rounded-full border-4 border-cream -translate-x-1/2 mt-6"></div>
+        <div class="ml-10 md:ml-0 md:w-[45%] md:mr-auto bg-white rounded-3xl p-5 border-2 border-milktea">
+          <p class="text-xs font-extrabold bg-capy text-white inline-block px-3 py-1 rounded-full">Sekarang & Nanti 💛</p>
+          <h4 class="font-extrabold mt-2">Dunia yang Nanti</h4>
+          <p class="text-sm opacity-80 mt-1">Kayak lagunya Raim Laode — aku mau jadi rumah yang kamu tuju, di dunia yang nanti.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-6">
+    <button id="editTimelineBtn" class="text-sm font-bold underline decoration-dashed">✏️ Klik untuk edit tanggal/cerita timeline</button>
+  </div>
+</section>
+
+<!-- LAGU -->
+<section id="lagu" class="px-4 max-w-4xl mx-auto mt-16">
+  <div class="bg-white rounded-[2rem] border-4 border-milktea overflow-hidden shadow-xl">
+    <div class="bg-gradient-to-r from-peach to-milktea p-6 flex flex-col md:flex-row gap-6 items-center">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&h=300&fit=crop" alt="cover" class="w-32 h-32 rounded-3xl object-cover shadow-lg border-4 border-white rotate-2">
+      <div class="flex-1 text-center md:text-left">
+        <p class="text-xs font-extrabold bg-white inline-block px-3 py-1 rounded-full">🎵 LAGU KITA — RAIM LAODE</p>
+        <h3 class="font-baloo font-extrabold text-2xl md:text-3xl mt-2 leading-none">Dunia yang Nanti</h3>
+        <p class="font-semibold opacity-70">Raim Laode • diputar untuk Nisyyah Khoirotul Ilmiah 💛</p>
+        <p class="text-sm mt-2 bg-white/70 p-3 rounded-2xl">“Aku mau jadi rumah yang kau tuju, tempat kau pulang...” — Kapibara juga mau jadi rumah yang hangat buat kamu, Nisyyah 🦫🏠</p>
+      </div>
+      <div class="flex flex-col gap-2">
+        <button id="playBtn" class="bg-capy text-cream w-16 h-16 rounded-full flex items-center justify-center text-2xl hover:bg-terra transition shadow-lg">▶️</button>
+        <span class="text-xs font-bold text-center" id="playStatus">Play</span>
+      </div>
+    </div>
+    <div class="p-4 md:p-6">
+      <div class="relative w-full aspect-video rounded-3xl overflow-hidden border-4 border-cream shadow-inner bg-black">
+        <iframe id="ytPlayer" class="w-full h-full" src="https://www.youtube.com/embed/PvnlBL6CB-s?enablejsapi=1" title="Raim Laode - Dunia yang Nanti" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="text-xs text-center opacity-60 mt-3 font-semibold">Kalau video tidak muncul, <a href="https://www.youtube.com/results?search_query=Raim+Laode+Dunia+yang+Nanti" target="_blank" class="underline text-terra">klik di sini untuk buka di YouTube</a> • Kamu juga bisa ganti video dengan paste link YouTube baru di bawah</p>
+      <div class="mt-4 flex gap-2">
+        <input id="ytInput" placeholder="Paste link YouTube lain (optional)..." class="flex-1 bg-cream border-2 border-milktea rounded-full px-4 py-2 text-sm font-semibold">
+        <button id="ytUpdate" class="bg-sage text-white px-5 py-2 rounded-full font-bold text-sm">Ganti</button>
+      </div>
+      <!-- Audio fallback -->
+      <audio id="audioFallback" controls class="w-full mt-4 hidden"></audio>
+      <label class="mt-3 block text-center">
+        <span class="text-xs font-bold bg-peach px-3 py-1 rounded-full">atau upload MP3 kamu sendiri</span>
+        <input id="mp3Upload" type="file" accept="audio/*" class="hidden">
+        <span id="mp3Name" class="block text-xs mt-2 opacity-60 cursor-pointer underline">klik di sini untuk upload MP3 “Dunia yang Nanti” dari HP kamu</span>
+      </label>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="px-4 max-w-3xl mx-auto mt-16 text-center">
+  <div class="bg-gradient-to-br from-cream to-peach rounded-[2rem] p-8 border-4 border-white shadow-xl">
+    <div class="text-5xl">🦫💛</div>
+    <h2 class="font-baloo font-extrabold text-3xl mt-3">Untuk Nisyyah, dari Kapibara-nya</h2>
+    <p class="mt-3 font-semibold leading-relaxed">
+      Website ini kecil, tapi cintanya nggak. Setiap pixel, setiap kata, setiap kapibara di sini — semuanya buat kamu.<br>
+      Kalau kangen, buka lagi ya. Kapibara ini akan selalu nungguin kamu di sini. 
+    </p>
+    <div class="mt-6 flex justify-center gap-3">
+      <button onclick="triggerConfetti()" class="bg-terra text-white px-6 py-3 rounded-full font-extrabold hover:scale-105 transition">Kasih Peluk Virtual 🤗</button>
+      <button onclick="window.scrollTo({top:0,behavior:'smooth'})" class="bg-white border-2 border-capy px-6 py-3 rounded-full font-extrabold">Balik ke Atas ↑</button>
+    </div>
+    <p class="text-xs opacity-60 mt-6 font-bold">Dibuat dengan sepenuh hati 🦫 • 2026 • Untuk Nisyyah Khoirotul Ilmiah — yang paling gemoy</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-10 opacity-60 text-xs font-bold">
+  <p>🦫 kapibara.love • Dibuat untuk Nisyyah Khoirotul Ilmiah • Dunia yang Nanti - Raim Laode 🎵</p>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 p-4">
+  <img id="lightboxImg" src="" class="max-w-full max-h-[85vh] rounded-3xl shadow-2xl">
+  <button id="closeLightbox" class="absolute top-6 right-6 bg-white w-10 h-10 rounded-full font-bold">✕</button>
+  <p id="lightboxCaption" class="absolute bottom-6 left-1/2 -translate-x-1/2 bg-white px-6 py-3 rounded-full font-bold text-sm max-w-[90%] text-center"></p>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
